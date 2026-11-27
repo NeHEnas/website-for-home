@@ -6,7 +6,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title> Главная страница </title>
+<script src="index.js"></script>
 <style> 
+*{margin: 0; padding: 0; box-sizing: border-box; color: #c9c4c4;}
+body{ background-image: url(background.png); min-height: 100vh; display: grid; place-items: center;}
+.header{padding: 20px; width: 1520px; border-radius: 10px; background-color: #3a3c3f92; border: 1px solid #c9c4c4;}
+.title{}
+.search{width: 100%; background-color: #c9c4c4; border: 1px solid #c9c4c4; display: grid; gap: 12px;}
+.info{}
+
+.main{}
+.widget{}
 
 </style>
 </head>
@@ -15,15 +25,23 @@
 <body>
 
     
-<header>
-
+<header class="header">
+<div class="title"> <h1>Добрый день, Данил!</h1> </div>
+<div class="search"> <input type="text" placeholder="поиск"> </div>
+<div class="info"> <p>time</p> <p>date</p> <p>home temperature</p> <p>street temperature</p> </div>  
 </header>
 
-<main>
+<main class="main">
+<div class="widget"> <p>Виджет</p> </div>
+<div class="widget"> <p>Виджет</p> </div>
+<div class="widget"> <p>Виджет</p> </div>
+<div class="widget"> <p>Виджет</p> </div>
+<div class="widget"> <p>Виджет</p> </div>
+<div class="widget"> <p>Виджет</p> </div>
 
 </main>
 
-<footer>
+<footer class="footer">
 
 </footer>
 
